@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+}
+
+a {
+    text-decoration:none;
+    color: rgb(81, 80, 80);
+}
+
+a:hover {
+    color:#1a73e8c4;
+}
+
+body {
+    background-color:#F4F4F4;
+}
+
+.todoapp {
+    width: 100%;
+    text-align: center;
+
+}
+
+.header {
+    margin: 0px auto;
+    position: relative;
+    width: 1100px;
+}
+
+.header h1{
+    padding: 30px 0px;
+    font-size: 150px;
+    font-weight: 500;
+    color: rgb(175, 12, 12);
+}
+
+.header img {
+    position: absolute;
+    left: 24px;
+    top: 286px;
+    width: 45px;
+}
+
+.new-todo {
+    width: 1102px;
+    height: 100px;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-right: 40px;
+    background-color: #FEFEFE;
+    border: 0px;
+    outline: none;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%)
+}
+
+.main {
+    width: 1100px;
+    margin: 0px auto;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%)
+}
+
+.todo-list {
+    width: 1100px;
+}
+
+.todo-list li {
+    width: 1100px;
+    height: 100px;
+    background-color: #FEFEFE;
+    border: 1px solid #F4F4F4;
+    position: relative;
+}
+
+.view {
+    height: 100px;
+    width: 1100px;
+    text-align: left;
+    line-height: 100px;
+    font-size: 35px;
+    color: rgb(81, 80, 80);
+    position: relative;
+}
+
+.view:hover {
+    box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
+}
+.view:hover .destroy {
+    display: block;
+}
+
+.toggle {
+    height: 30px;
+    width: 30px;
+    margin: 0px 30px;
+}
+
+.completed {
+    color: #d2d0d0;
+    text-decoration: line-through;
+}
+
+.destroy {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    background-color: rgb(175, 12, 12);
+    color: white;
+    box-shadow: 0 5px 7px rgb(0 0 0 / 50%);
+    border: 0px;
+    border-radius:5px;
+    display: none;
+}
+
+.footer {
+    width: 1101px;
+    position: relative;
+    text-align: center;
+    margin: 0px auto;
+    
+}
+
+.footer div {
+    height: 70px;
+    background-color: #FEFEFE;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+}
+
+.footer div:nth-child(2) {
+    width: 1090px;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    margin-left: 5px;
+}
+
+.footer div:nth-child(3) {
+    width: 1080px;
+    position: absolute;
+    top: 20px;
+    margin-left: 10px;
+}
+
+.show {
+    /* line-height: 70px; */
+    font-size: 27px;
+    color: rgb(81, 80, 80);
+    position: relative;
+    border-top: 1px solid #e9e7e7;
+    z-index: 2;
+    margin-left: 1px;
+}
+
+.show span {
+    margin-top: 16px;
+}
+
+
+.show span:nth-child(1) {
+    position: absolute;
+    left: 20px;
+}
+
+.show span:nth-child(2) {
+    position: absolute;
+    left: 45px;
+}
+
+.show span:nth-child(3) {
+    position: absolute;
+    left: 370px;
+}
+
+.show span:nth-child(4) {
+    position: absolute;
+    left: 453px;
+}
+.show span:nth-child(5) {
+    position: absolute;
+    left: 580px;
+}
+
+.show span:nth-child(6) {
+    position: absolute;
+    right: 20px;
+}
+
+.show span:nth-child(3),.show span:nth-child(4),.show span:nth-child(5) {
+    padding: 5px 5px;
+    margin-top: 11px;
+}
+
+.show span:nth-child(6):hover{
+    color:#1a73e8c4;
+    cursor:pointer
+}
+
+.footer .selected {
+    border: 2px solid #e3e2e2;
+}
+
+.info {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 25px;
+    line-height: 50px;
+    color: rgb(81, 80, 80);
+    
+}
+
+.editing .edit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 98px;
+    width: 997px;
+    margin-left: 90px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-left: 10px;
+    font-size: 30px;
+    display: block;
+}
+
+.edit {
+    display: none;
+}

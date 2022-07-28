@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="css/index.css" type="text/CSS">
+</head>
+<body>
+    <section class="todoapp">
+        <header class="header">
+            <h1>todos</h1>
+            <input class="new-todo" type="search" placeholder="What needs to be done?" >
+            <img src="img/全选1.png" alt="展开" data-flag = "false">
+        </header>
+
+        <section class="main">
+            <ul class="todo-list">
+                <!-- <li>
+                    <div class="view">
+                        <input id="1" class="toggle" type="checkbox" checked>
+                        <label for="1" class="completed">Taste JavaScript</label>
+                        <button class="destroy">Delete</button>
+                    </div>
+                    <input class="edit" data-index="0">
+                </li>
+                <li>
+                    <div class="view">
+                        <input id="2" class="toggle" type="checkbox">
+                        <label for="2">Buy a unicorn</label>
+                        <button class="destroy">Delete</button>
+                    </div>
+                </li> -->
+            </ul>
+        </section>
+        <footer class="footer">
+            <div class="show">
+                <span>0</span>
+                <span>item left</span>
+                <span class="selected"><a href="#/">All</a></span>
+                <span><a href="#/active">Active</a></span>
+                <span><a href="#/completed">Completed</a></span>
+                <span>Clear completed</span>
+            </div>
+            <div></div>
+            <div></div>
+        </footer>
+    </section>
+    <footer class="info">
+        <p>Double-click to edit a todo</p>
+        <p>Esc to cancel editing</p>
+        <p>Created by you</p>
+        <p>Part of TodoMVC</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
